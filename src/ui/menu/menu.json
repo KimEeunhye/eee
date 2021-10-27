@@ -1,0 +1,40 @@
+{
+    "menu": [{
+            "uri": "",
+            "name": "MENU_HOME"
+        },
+        {
+            "uri": "mates",
+            "name": "MENU_MATES",
+            "children": [{
+                    "uri": "mates/gallery",
+                    "name": "MENU_GALLERY"
+                },
+                {
+                    "uri": "mates/followme",
+                    "name": "MENU_FOLLOW_ME"
+                },
+                {
+                    "uri": "mates/mymates",
+                    "name": "MENU_MY_MATES"
+                },
+                {
+                    "uri": "mates/buy",
+                    "name": "MENU_BUY_MATES"
+                }
+            ]
+        },
+        {
+            "uri": "activities",
+            "name": "MENU_ACTIVITIES",
+            "children": [{
+                "uri": "dogesounds",
+                "name": "MENU_DOGESOUNDS"
+            }]
+        },
+        {
+            "uri": "governance",
+            "name": "MENU_GOVERNANCE"
+        }
+    ]
+}

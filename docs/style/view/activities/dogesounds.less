@@ -1,0 +1,122 @@
+.dogesounds-view {
+    max-width: 780px;
+    padding  : 135px 20px;
+    margin   : auto;
+
+    @media @phone {
+        padding: 90px 20px;
+    }
+
+    >h1 {
+        font-size     : 30px;
+        font-family   : DungGeunMo;
+        color         : #FF00F6;
+        text-shadow   : 3px 3px 3px #656565;
+        text-align    : center;
+        text-transform: uppercase;
+    }
+
+    >.top-image {
+        display   : block;
+        margin    : auto;
+        margin-top: 60px;
+    }
+
+    >section {
+        margin-top: 60px;
+
+        >h2 {
+            font-size    : 30px;
+            font-family  : DungGeunMo;
+            color        : #FF00F6;
+            text-shadow  : 3px 3px 3px #656565;
+            margin-bottom: 30px;
+            text-align   : center;
+        }
+
+        p {
+            margin-bottom: 20px;
+
+            a {
+                color: #BFC500;
+            }
+        }
+
+        .warning {
+            color          : #DF3737;
+            text-decoration: underline;
+        }
+
+        >.opensea-link {
+            display         : block;
+            margin          : auto;
+            font-size       : 20px;
+            color           : #000000;
+            background-color: #FBFF72;
+            box-shadow      : 7.5px 7.5px 0px 0px #BFC500;
+            text-align      : center;
+            width           : 320px;
+            padding         : 12px 0;
+            font-family     : DungGeunMo;
+            font-weight     : bold;
+        }
+
+        >.period-triangle {
+            position: relative;
+            height  : 500px;
+
+            >img {
+                position   : absolute;
+                left       : 50%;
+                margin-left: -112.5px;
+                top        : 105px;
+            }
+
+            >span {
+                position   : absolute;
+                font-family: DungGeunMo;
+                font-size  : 20px;
+                width      : 300px;
+                text-align : center;
+
+                &.holiday {
+                    left       : 50%;
+                    margin-left: calc(-150px + 150px);
+                    top        : 315px;
+                    transform  : rotate(-60deg);
+                }
+
+                &.register {
+                    left       : 50%;
+                    margin-left: calc(-150px - 150px);
+                    top        : 315px;
+                    transform  : rotate(60deg);
+                }
+
+                &.vote {
+                    left       : 50%;
+                    margin-left: -150px;
+                    top        : 60px;
+                }
+
+                &.on {
+                    color: #BFC500;
+                }
+            }
+        }
+    }
+
+    >.status {
+        >p {
+            font-family: DungGeunMo;
+            color      : #BFC500;
+            font-size  : 30px;
+            line-height: 1.2em;
+        }
+    }
+
+    >.register-candidate-form,
+    >.vote-form {
+        margin-top: 45px;
+    }
+}
